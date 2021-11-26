@@ -1,0 +1,33 @@
+.stootie-cta {
+  /* CTA_PRIMARY */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 48px 20px;
+
+  background: #000000;
+  color: #ffffff;
+  border-radius: 60px;
+
+  p {
+    position: static;
+
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+}
