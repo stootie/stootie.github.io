@@ -6,10 +6,12 @@ a.stootie-cta {
   text-decoration: none;
   color: initial;
 
+  min-width: 151px;
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-    padding: 20px 40px 20px;
+  padding: 20px 40px 20px;
 
   background: #000000;
   color: #ffffff;
