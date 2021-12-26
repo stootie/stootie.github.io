@@ -5,6 +5,15 @@
 @import "stootie-ellipse";
 @import url('https://rsms.me/inter/inter.css');
 
+// Disable horizontal scroll on mobile
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+// custom CSS
 body {
   font-family: 'Inter', sans-serif;
   background: #FFFFFF;
